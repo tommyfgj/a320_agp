@@ -1,0 +1,51 @@
+﻿组,插座,类型,插座引脚,极性,功能,Mega2560引脚,驱动,PCB网络
+1,J1,4P,1,-,下方LED 负极（ULN 灌电流）,D2,U2 IN1 → OUT18,LED_D2
+1,J1,4P,3,-,上方LED 负极（ULN 灌电流）,D3,U2 IN2 → OUT17,LED_D3
+1,J1,4P,2,+,下方LED 正极,5V,,5V
+1,J1,4P,4,+,上方LED 正极,5V,,5V
+1,JS1,2P,1,,自锁开关（INPUT_PULLUP，按下=LOW）,D18,,D18
+1,JS1,2P,2,,自锁开关 GND,GND,,Gnd
+2,J2,4P,1,-,下方LED 负极（ULN 灌电流）,D4,U2 IN3 → OUT16,LED_D4
+2,J2,4P,3,-,上方LED 负极（ULN 灌电流）,D5,U2 IN4 → OUT15,LED_D5
+2,J2,4P,2,+,下方LED 正极,5V,,5V
+2,J2,4P,4,+,上方LED 正极,5V,,5V
+2,JS2,2P,1,,自锁开关（INPUT_PULLUP，按下=LOW）,D19,,D19
+2,JS2,2P,2,,自锁开关 GND,GND,,Gnd
+3,J3,4P,1,-,下方LED 负极（ULN 灌电流）,D6,U2 IN5 → OUT14,LED_D6
+3,J3,4P,3,-,上方LED 负极（ULN 灌电流）,D7,U2 IN6 → OUT13,LED_D7
+3,J3,4P,2,+,下方LED 正极,5V,,5V
+3,J3,4P,4,+,上方LED 正极,5V,,5V
+3,JS3,2P,1,,自锁开关（INPUT_PULLUP，按下=LOW）,D20,,D20
+3,JS3,2P,2,,自锁开关 GND,GND,,Gnd
+4,J4,4P,1,-,下方LED 负极（ULN 灌电流）,D8,U2 IN7 → OUT12,LED_D8
+4,J4,4P,3,-,上方LED 负极（ULN 灌电流）,D9,U2 IN8 → OUT11,LED_D9
+4,J4,4P,2,+,下方LED 正极,5V,,5V
+4,J4,4P,4,+,上方LED 正极,5V,,5V
+4,JS4,2P,1,,自锁开关（INPUT_PULLUP，按下=LOW）,D21,,D21
+4,JS4,2P,2,,自锁开关 GND,GND,,Gnd
+5,J5,4P,1,-,下方LED 负极（ULN 灌电流）,D10,U3 IN1 → OUT18,LED_D10
+5,J5,4P,3,-,上方LED 负极（ULN 灌电流）,D11,U3 IN2 → OUT17,LED_D11
+5,J5,4P,2,+,下方LED 正极,5V,,5V
+5,J5,4P,4,+,上方LED 正极,5V,,5V
+5,JS5,2P,1,,自锁开关（INPUT_PULLUP，按下=LOW）,D22,,D22
+5,JS5,2P,2,,自锁开关 GND,GND,,Gnd
+6,J6,4P,1,-,下方LED 负极（ULN 灌电流）,D12,U3 IN3 → OUT16,LED_D12
+6,J6,4P,3,-,上方LED 负极（ULN 灌电流）,D13,U3 IN4 → OUT15,LED_D13
+6,J6,4P,2,+,下方LED 正极,5V,,5V
+6,J6,4P,4,+,上方LED 正极,5V,,5V
+6,JS6,2P,1,,自锁开关（INPUT_PULLUP，按下=LOW）,D23,,D23
+6,JS6,2P,2,,自锁开关 GND,GND,,Gnd
+7,J7,4P,1,-,下方LED 负极（ULN 灌电流）,D14,U3 IN5 → OUT14,LED_D14
+7,J7,4P,3,-,上方LED 负极（ULN 灌电流）,D15,U3 IN6 → OUT13,LED_D15
+7,J7,4P,2,+,下方LED 正极,5V,,5V
+7,J7,4P,4,+,上方LED 正极,5V,,5V
+7,JS7,2P,1,,自锁开关（INPUT_PULLUP，按下=LOW）,D24,,D24
+7,JS7,2P,2,,自锁开关 GND,GND,,Gnd
+8,J8,4P,1,-,下方LED 负极（ULN 灌电流）,D16,U3 IN7 → OUT12,LED_D16
+8,J8,4P,3,-,上方LED 负极（ULN 灌电流）,D17,U3 IN8 → OUT11,LED_D17
+8,J8,4P,2,+,下方LED 正极,5V,,5V
+8,J8,4P,4,+,上方LED 正极,5V,,5V
+8,JS8,2P,1,,自锁开关（INPUT_PULLUP，按下=LOW）,D25,,D25
+8,JS8,2P,2,,自锁开关 GND,GND,,Gnd
+电源,JPWR,2P,1,+,外接 5V 输入,5V,,5V
+电源,JPWR,2P,2,-,外接 5V 地,GND,,Gnd
