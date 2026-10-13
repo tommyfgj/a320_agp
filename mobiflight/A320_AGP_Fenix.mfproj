@@ -1,0 +1,704 @@
+{
+  "Name": "A320 AGP - Fenix A320",
+  "ConfigFiles": [
+    {
+      "Label": "A320 AGP",
+      "ReferenceOnly": false,
+      "EmbedContent": true,
+      "ConfigItems": [
+        {
+          "Source": {
+            "SimConnectValue": {
+              "UUID": "7142c79b-bced-4424-b5d0-e1ee326bab08",
+              "Value": "(L:I_MIP_GEAR_1_U)",
+              "VarType": 2
+            },
+            "Type": "SimConnectSource"
+          },
+          "TestValue": {
+            "type": 1,
+            "Float64": 1.0
+          },
+          "Device": {
+            "Name": "GEAR1_UNLK",
+            "Pin": "GEAR1_UNLK",
+            "Brightness": 255,
+            "PwmMode": false,
+            "Type": "Output"
+          },
+          "DeviceType": "Output",
+          "DeviceName": "GEAR1_UNLK",
+          "GUID": "a46412b6-dfe6-55d7-90c9-f9b8977189a1",
+          "Active": true,
+          "Name": "LDG GEAR 1 (左主轮) UNLK (J1上 D3)",
+          "Type": "OutputConfigItem",
+          "Controller": {
+            "Name": "A320 AGP",
+            "Serial": "SN-B84-23B"
+          }
+        },
+        {
+          "Source": {
+            "SimConnectValue": {
+              "UUID": "87d4c692-73e8-4448-81b6-12dd09a0575c",
+              "Value": "(L:I_MIP_GEAR_1_L)",
+              "VarType": 2
+            },
+            "Type": "SimConnectSource"
+          },
+          "TestValue": {
+            "type": 1,
+            "Float64": 1.0
+          },
+          "Device": {
+            "Name": "GEAR1_DOWN",
+            "Pin": "GEAR1_DOWN",
+            "Brightness": 255,
+            "PwmMode": false,
+            "Type": "Output"
+          },
+          "DeviceType": "Output",
+          "DeviceName": "GEAR1_DOWN",
+          "GUID": "9f091f38-f1ff-5b58-887a-0a31788b30a1",
+          "Active": false,
+          "Name": "LDG GEAR 1 (左主轮) ▽ (J1下 D2)",
+          "Type": "OutputConfigItem",
+          "Controller": {
+            "Name": "A320 AGP",
+            "Serial": "SN-B84-23B"
+          }
+        },
+        {
+          "Source": {
+            "SimConnectValue": {
+              "UUID": "ccdf88e7-597b-4bc6-8c44-4e32696b5449",
+              "Value": "(L:I_MIP_GEAR_2_U)",
+              "VarType": 2
+            },
+            "Type": "SimConnectSource"
+          },
+          "TestValue": {
+            "type": 1,
+            "Float64": 1.0
+          },
+          "Device": {
+            "Name": "GEAR2_UNLK",
+            "Pin": "GEAR2_UNLK",
+            "Brightness": 255,
+            "PwmMode": false,
+            "Type": "Output"
+          },
+          "DeviceType": "Output",
+          "DeviceName": "GEAR2_UNLK",
+          "GUID": "eef1b319-212e-53a3-988a-fcc87fb73d3d",
+          "Active": true,
+          "Name": "LDG GEAR 2 (前轮) UNLK (J2上 D5)",
+          "Type": "OutputConfigItem",
+          "Controller": {
+            "Name": "A320 AGP",
+            "Serial": "SN-B84-23B"
+          }
+        },
+        {
+          "Source": {
+            "SimConnectValue": {
+              "UUID": "b6d3c141-92ee-4d3d-9091-d206606b0b74",
+              "Value": "(L:I_MIP_GEAR_2_L)",
+              "VarType": 2
+            },
+            "Type": "SimConnectSource"
+          },
+          "TestValue": {
+            "type": 1,
+            "Float64": 1.0
+          },
+          "Device": {
+            "Name": "GEAR2_DOWN",
+            "Pin": "GEAR2_DOWN",
+            "Brightness": 255,
+            "PwmMode": false,
+            "Type": "Output"
+          },
+          "DeviceType": "Output",
+          "DeviceName": "GEAR2_DOWN",
+          "GUID": "a96dffc7-5847-5476-962b-ae1f7d059cf7",
+          "Active": true,
+          "Name": "LDG GEAR 2 (前轮) ▽ (J2下 D4)",
+          "Type": "OutputConfigItem",
+          "Controller": {
+            "Name": "A320 AGP",
+            "Serial": "SN-B84-23B"
+          }
+        },
+        {
+          "Source": {
+            "SimConnectValue": {
+              "UUID": "4f8c91b2-3687-4b7c-abca-da7bf0b4d0ba",
+              "Value": "(L:I_MIP_GEAR_3_U)",
+              "VarType": 2
+            },
+            "Type": "SimConnectSource"
+          },
+          "TestValue": {
+            "type": 1,
+            "Float64": 1.0
+          },
+          "Device": {
+            "Name": "GEAR3_UNLK",
+            "Pin": "GEAR3_UNLK",
+            "Brightness": 255,
+            "PwmMode": false,
+            "Type": "Output"
+          },
+          "DeviceType": "Output",
+          "DeviceName": "GEAR3_UNLK",
+          "GUID": "5f22cae0-ce63-5851-89ed-9492ecfc777e",
+          "Active": true,
+          "Name": "LDG GEAR 3 (右主轮) UNLK (J3上 D7)",
+          "Type": "OutputConfigItem",
+          "Controller": {
+            "Name": "A320 AGP",
+            "Serial": "SN-B84-23B"
+          }
+        },
+        {
+          "Source": {
+            "SimConnectValue": {
+              "UUID": "51b5025c-c71e-4442-b9f9-6dce3e4cdaf1",
+              "Value": "(L:I_MIP_GEAR_3_L)",
+              "VarType": 2
+            },
+            "Type": "SimConnectSource"
+          },
+          "TestValue": {
+            "type": 1,
+            "Float64": 1.0
+          },
+          "Device": {
+            "Name": "GEAR3_DOWN",
+            "Pin": "GEAR3_DOWN",
+            "Brightness": 255,
+            "PwmMode": false,
+            "Type": "Output"
+          },
+          "DeviceType": "Output",
+          "DeviceName": "GEAR3_DOWN",
+          "GUID": "d52f0c9d-0154-5baf-bd28-aa76d869bfea",
+          "Active": true,
+          "Name": "LDG GEAR 3 (右主轮) ▽ (J3下 D6)",
+          "Type": "OutputConfigItem",
+          "Controller": {
+            "Name": "A320 AGP",
+            "Serial": "SN-B84-23B"
+          }
+        },
+        {
+          "Source": {
+            "SimConnectValue": {
+              "UUID": "7598d4a6-f844-4fdd-a623-422dfd39a174",
+              "Value": "(L:I_MIP_AUTOBRAKE_LO_U)",
+              "VarType": 2
+            },
+            "Type": "SimConnectSource"
+          },
+          "TestValue": {
+            "type": 1,
+            "Float64": 1.0
+          },
+          "Device": {
+            "Name": "ABRK_LO_DECEL",
+            "Pin": "ABRK_LO_DECEL",
+            "Brightness": 255,
+            "PwmMode": false,
+            "Type": "Output"
+          },
+          "DeviceType": "Output",
+          "DeviceName": "ABRK_LO_DECEL",
+          "GUID": "7c843af8-2269-5cc7-acbd-ea84f63388a1",
+          "Active": true,
+          "Name": "AUTO BRK LO DECEL (J4上 D9)",
+          "Type": "OutputConfigItem",
+          "Controller": {
+            "Name": "A320 AGP",
+            "Serial": "SN-B84-23B"
+          }
+        },
+        {
+          "Source": {
+            "SimConnectValue": {
+              "UUID": "1631ad70-b2e2-4203-92c7-dec73e06b10a",
+              "Value": "(L:I_MIP_AUTOBRAKE_LO_L)",
+              "VarType": 2
+            },
+            "Type": "SimConnectSource"
+          },
+          "TestValue": {
+            "type": 1,
+            "Float64": 1.0
+          },
+          "Device": {
+            "Name": "ABRK_LO_ON",
+            "Pin": "ABRK_LO_ON",
+            "Brightness": 255,
+            "PwmMode": false,
+            "Type": "Output"
+          },
+          "DeviceType": "Output",
+          "DeviceName": "ABRK_LO_ON",
+          "GUID": "1484abaa-d6b0-50e0-b5d5-a79608ba3cf6",
+          "Active": true,
+          "Name": "AUTO BRK LO ON (J4下 D8)",
+          "Type": "OutputConfigItem",
+          "Controller": {
+            "Name": "A320 AGP",
+            "Serial": "SN-B84-23B"
+          }
+        },
+        {
+          "Source": {
+            "SimConnectValue": {
+              "UUID": "79f26531-8236-47f8-9854-d68f8dc8e2b9",
+              "Value": "(L:I_MIP_AUTOBRAKE_MED_U)",
+              "VarType": 2
+            },
+            "Type": "SimConnectSource"
+          },
+          "TestValue": {
+            "type": 1,
+            "Float64": 1.0
+          },
+          "Device": {
+            "Name": "ABRK_MED_DECEL",
+            "Pin": "ABRK_MED_DECEL",
+            "Brightness": 255,
+            "PwmMode": false,
+            "Type": "Output"
+          },
+          "DeviceType": "Output",
+          "DeviceName": "ABRK_MED_DECEL",
+          "GUID": "53dfccd4-89d1-5508-a468-9bdcd8f3c89c",
+          "Active": true,
+          "Name": "AUTO BRK MED DECEL (J5上 D11)",
+          "Type": "OutputConfigItem",
+          "Controller": {
+            "Name": "A320 AGP",
+            "Serial": "SN-B84-23B"
+          }
+        },
+        {
+          "Source": {
+            "SimConnectValue": {
+              "UUID": "312c1115-898f-4e97-8426-10866b29a94b",
+              "Value": "(L:I_MIP_AUTOBRAKE_MED_L)",
+              "VarType": 2
+            },
+            "Type": "SimConnectSource"
+          },
+          "TestValue": {
+            "type": 1,
+            "Float64": 1.0
+          },
+          "Device": {
+            "Name": "ABRK_MED_ON",
+            "Pin": "ABRK_MED_ON",
+            "Brightness": 255,
+            "PwmMode": false,
+            "Type": "Output"
+          },
+          "DeviceType": "Output",
+          "DeviceName": "ABRK_MED_ON",
+          "GUID": "1296b1e7-9bb3-5b2a-96fa-56ff79dd73cc",
+          "Active": true,
+          "Name": "AUTO BRK MED ON (J5下 D10)",
+          "Type": "OutputConfigItem",
+          "Controller": {
+            "Name": "A320 AGP",
+            "Serial": "SN-B84-23B"
+          }
+        },
+        {
+          "Source": {
+            "SimConnectValue": {
+              "UUID": "6d38c70d-6342-47fa-9264-223800cf6d3c",
+              "Value": "(L:I_MIP_AUTOBRAKE_MAX_U)",
+              "VarType": 2
+            },
+            "Type": "SimConnectSource"
+          },
+          "TestValue": {
+            "type": 1,
+            "Float64": 1.0
+          },
+          "Device": {
+            "Name": "ABRK_MAX_DECEL",
+            "Pin": "ABRK_MAX_DECEL",
+            "Brightness": 255,
+            "PwmMode": false,
+            "Type": "Output"
+          },
+          "DeviceType": "Output",
+          "DeviceName": "ABRK_MAX_DECEL",
+          "GUID": "affdb31c-5af1-5415-a3d1-4a0774cb543f",
+          "Active": true,
+          "Name": "AUTO BRK MAX DECEL (J6上 D13)",
+          "Type": "OutputConfigItem",
+          "Controller": {
+            "Name": "A320 AGP",
+            "Serial": "SN-B84-23B"
+          }
+        },
+        {
+          "Source": {
+            "SimConnectValue": {
+              "UUID": "fc1d4c4d-5b73-4085-a3ca-cbe555ebb95f",
+              "Value": "(L:I_MIP_AUTOBRAKE_MAX_L)",
+              "VarType": 2
+            },
+            "Type": "SimConnectSource"
+          },
+          "TestValue": {
+            "type": 1,
+            "Float64": 1.0
+          },
+          "Device": {
+            "Name": "ABRK_MAX_ON",
+            "Pin": "ABRK_MAX_ON",
+            "Brightness": 255,
+            "PwmMode": false,
+            "Type": "Output"
+          },
+          "DeviceType": "Output",
+          "DeviceName": "ABRK_MAX_ON",
+          "GUID": "0a8454ea-5ab0-5960-8d13-70519738f7a9",
+          "Active": true,
+          "Name": "AUTO BRK MAX ON (J6下 D12)",
+          "Type": "OutputConfigItem",
+          "Controller": {
+            "Name": "A320 AGP",
+            "Serial": "SN-B84-23B"
+          }
+        },
+        {
+          "Source": {
+            "SimConnectValue": {
+              "UUID": "e3e4891d-3558-4b25-b974-d260069e64e1",
+              "Value": "(L:I_MIP_BRAKE_FAN_U)",
+              "VarType": 2
+            },
+            "Type": "SimConnectSource"
+          },
+          "TestValue": {
+            "type": 1,
+            "Float64": 1.0
+          },
+          "Device": {
+            "Name": "BRKFAN_HOT",
+            "Pin": "BRKFAN_HOT",
+            "Brightness": 255,
+            "PwmMode": false,
+            "Type": "Output"
+          },
+          "DeviceType": "Output",
+          "DeviceName": "BRKFAN_HOT",
+          "GUID": "6998e7c5-a8e8-5e6b-950b-4200be9ecaf3",
+          "Active": true,
+          "Name": "BRK FAN HOT (J7上 D15)",
+          "Type": "OutputConfigItem",
+          "Controller": {
+            "Name": "A320 AGP",
+            "Serial": "SN-B84-23B"
+          }
+        },
+        {
+          "Source": {
+            "SimConnectValue": {
+              "UUID": "71f795c8-523d-443b-a8ee-03c11e88703c",
+              "Value": "(L:I_MIP_BRAKE_FAN_L)",
+              "VarType": 2
+            },
+            "Type": "SimConnectSource"
+          },
+          "TestValue": {
+            "type": 1,
+            "Float64": 1.0
+          },
+          "Device": {
+            "Name": "BRKFAN_ON",
+            "Pin": "BRKFAN_ON",
+            "Brightness": 255,
+            "PwmMode": false,
+            "Type": "Output"
+          },
+          "DeviceType": "Output",
+          "DeviceName": "BRKFAN_ON",
+          "GUID": "e4c0721d-325e-599d-892b-90bf82f2eb79",
+          "Active": true,
+          "Name": "BRK FAN ON (J7下 D14)",
+          "Type": "OutputConfigItem",
+          "Controller": {
+            "Name": "A320 AGP",
+            "Serial": "SN-B84-23B"
+          }
+        },
+        {
+          "Source": {
+            "SimConnectValue": {
+              "UUID": "6d934eea-2ffd-4486-b97b-136df6e30675",
+              "Value": "(L:I_MIP_GEAR_RED)",
+              "VarType": 2
+            },
+            "Type": "SimConnectSource"
+          },
+          "TestValue": {
+            "type": 1,
+            "Float64": 1.0
+          },
+          "Device": {
+            "Name": "GEAR_ARROW",
+            "Pin": "GEAR_ARROW",
+            "Brightness": 255,
+            "PwmMode": false,
+            "Type": "Output"
+          },
+          "DeviceType": "Output",
+          "DeviceName": "GEAR_ARROW",
+          "GUID": "cafb08fe-bdc2-533f-8f13-0f1e9bf04edc",
+          "Active": true,
+          "Name": "LDG GEAR 手柄 向下箭头 (J8上 D17)",
+          "Type": "OutputConfigItem",
+          "Controller": {
+            "Name": "A320 AGP",
+            "Serial": "SN-B84-23B"
+          }
+        },
+        {
+          "Source": {
+            "SimConnectValue": {
+              "UUID": "7256246a-484e-4b37-bf6c-20a29efd11b4",
+              "Value": "(L:I_MIP_GPWS_TERRAIN_ON_ND_CAPT_L)",
+              "VarType": 2
+            },
+            "Type": "SimConnectSource"
+          },
+          "TestValue": {
+            "type": 1,
+            "Float64": 1.0
+          },
+          "Device": {
+            "Name": "TERR_ON",
+            "Pin": "TERR_ON",
+            "Brightness": 255,
+            "PwmMode": false,
+            "Type": "Output"
+          },
+          "DeviceType": "Output",
+          "DeviceName": "TERR_ON",
+          "GUID": "ab398a4a-7fcc-5313-83cd-b50ff6d5e9e0",
+          "Active": true,
+          "Name": "TERR ON ND (机长侧) ON (J8下 D16)",
+          "Type": "OutputConfigItem",
+          "Controller": {
+            "Name": "A320 AGP",
+            "Serial": "SN-B84-23B"
+          }
+        },
+        {
+          "button": {
+            "onPress": {
+              "Command": "1 (>L:S_FC_MIP_ANTI_SKID)",
+              "Type": "MSFS2020CustomInputAction"
+            },
+            "onRelease": {
+              "Command": "0 (>L:S_FC_MIP_ANTI_SKID)",
+              "Type": "MSFS2020CustomInputAction"
+            },
+            "LongReleaseDelay": 350,
+            "HoldDelay": 350,
+            "RepeatDelay": 0
+          },
+          "Device": {
+            "Type": "Button",
+            "Name": "ASKID_SW"
+          },
+          "GUID": "156db3eb-e431-57a7-b266-f2a62e1093a0",
+          "Active": true,
+          "Name": "A/SKID & N/W STRG 两档拨杆 (闭合=ON) (JS1 D18)",
+          "Type": "InputConfigItem",
+          "Controller": {
+            "Name": "A320 AGP",
+            "Serial": "SN-B84-23B"
+          }
+        },
+        {
+          "button": {
+            "onPress": {
+              "Command": "1 (>L:S_MIP_GEAR)",
+              "Type": "MSFS2020CustomInputAction"
+            },
+            "onRelease": {
+              "Command": "0 (>L:S_MIP_GEAR)",
+              "Type": "MSFS2020CustomInputAction"
+            },
+            "LongReleaseDelay": 350,
+            "HoldDelay": 350,
+            "RepeatDelay": 0
+          },
+          "Device": {
+            "Type": "Button",
+            "Name": "GEAR_LEVER_SW"
+          },
+          "GUID": "81120e0c-bf33-5b25-b423-7eb1c31fff50",
+          "Active": true,
+          "Name": "LDG GEAR 手柄 两档手柄 (闭合=DOWN) (JS2 D19)",
+          "Type": "InputConfigItem",
+          "Controller": {
+            "Name": "A320 AGP",
+            "Serial": "SN-B84-23B"
+          }
+        },
+        {
+          "button": {
+            "onPress": {
+              "Command": "1 (>L:S_MIP_AUTOBRAKE_LO)",
+              "Type": "MSFS2020CustomInputAction"
+            },
+            "onRelease": {
+              "Command": "0 (>L:S_MIP_AUTOBRAKE_LO)",
+              "Type": "MSFS2020CustomInputAction"
+            },
+            "LongReleaseDelay": 350,
+            "HoldDelay": 350,
+            "RepeatDelay": 0
+          },
+          "Device": {
+            "Type": "Button",
+            "Name": "ABRK_LO_BTN"
+          },
+          "GUID": "b8104d86-dd32-5bbe-a592-e660f6a4030c",
+          "Active": true,
+          "Name": "AUTO BRK LO 瞬时按钮 (JS4 D21)",
+          "Type": "InputConfigItem",
+          "Controller": {
+            "Name": "A320 AGP",
+            "Serial": "SN-B84-23B"
+          }
+        },
+        {
+          "button": {
+            "onPress": {
+              "Command": "1 (>L:S_MIP_AUTOBRAKE_MED)",
+              "Type": "MSFS2020CustomInputAction"
+            },
+            "onRelease": {
+              "Command": "0 (>L:S_MIP_AUTOBRAKE_MED)",
+              "Type": "MSFS2020CustomInputAction"
+            },
+            "LongReleaseDelay": 350,
+            "HoldDelay": 350,
+            "RepeatDelay": 0
+          },
+          "Device": {
+            "Type": "Button",
+            "Name": "ABRK_MED_BTN"
+          },
+          "GUID": "68d28fc8-95c1-50fd-bc1d-9d449e91e918",
+          "Active": true,
+          "Name": "AUTO BRK MED 瞬时按钮 (JS5 D22)",
+          "Type": "InputConfigItem",
+          "Controller": {
+            "Name": "A320 AGP",
+            "Serial": "SN-B84-23B"
+          }
+        },
+        {
+          "button": {
+            "onPress": {
+              "Command": "1 (>L:S_MIP_AUTOBRAKE_MAX)",
+              "Type": "MSFS2020CustomInputAction"
+            },
+            "onRelease": {
+              "Command": "0 (>L:S_MIP_AUTOBRAKE_MAX)",
+              "Type": "MSFS2020CustomInputAction"
+            },
+            "LongReleaseDelay": 350,
+            "HoldDelay": 350,
+            "RepeatDelay": 0
+          },
+          "Device": {
+            "Type": "Button",
+            "Name": "ABRK_MAX_BTN"
+          },
+          "GUID": "cf7e78f0-c814-5c24-8050-d99a688f7dd8",
+          "Active": true,
+          "Name": "AUTO BRK MAX 瞬时按钮 (JS6 D23)",
+          "Type": "InputConfigItem",
+          "Controller": {
+            "Name": "A320 AGP",
+            "Serial": "SN-B84-23B"
+          }
+        },
+        {
+          "button": {
+            "onPress": {
+              "Command": "1 (>L:S_MIP_BRAKE_FAN) 2 (>L:S_MIP_BRAKE_FAN_Anim)",
+              "Type": "MSFS2020CustomInputAction"
+            },
+            "onRelease": {
+              "Command": "0 (>L:S_MIP_BRAKE_FAN) 0 (>L:S_MIP_BRAKE_FAN_Anim)",
+              "Type": "MSFS2020CustomInputAction"
+            },
+            "LongReleaseDelay": 350,
+            "HoldDelay": 350,
+            "RepeatDelay": 0
+          },
+          "Device": {
+            "Type": "Button",
+            "Name": "BRKFAN_BTN"
+          },
+          "GUID": "eda43c13-2cfc-5cbc-9e5c-3325c8b68b58",
+          "Active": true,
+          "Name": "BRK FAN 自锁按钮 (按下保持=ON) (JS7 D24)",
+          "Type": "InputConfigItem",
+          "Controller": {
+            "Name": "A320 AGP",
+            "Serial": "SN-B84-23B"
+          }
+        },
+        {
+          "button": {
+            "onPress": {
+              "Command": "1 (>L:S_MIP_GPWS_TERRAIN_ON_ND_CAPT)",
+              "Type": "MSFS2020CustomInputAction"
+            },
+            "onRelease": {
+              "Command": "0 (>L:S_MIP_GPWS_TERRAIN_ON_ND_CAPT)",
+              "Type": "MSFS2020CustomInputAction"
+            },
+            "LongReleaseDelay": 350,
+            "HoldDelay": 350,
+            "RepeatDelay": 0
+          },
+          "Device": {
+            "Type": "Button",
+            "Name": "TERR_BTN"
+          },
+          "GUID": "92783d5b-f1b2-5864-a87e-9bb74bdaf9f9",
+          "Active": true,
+          "Name": "TERR ON ND (机长侧) 瞬时按钮 (JS8 D25)",
+          "Type": "InputConfigItem",
+          "Controller": {
+            "Name": "A320 AGP",
+            "Serial": "SN-B84-23B"
+          }
+        }
+      ]
+    }
+  ],
+  "Sim": "msfs",
+  "Aircraft": [],
+  "Features": {
+    "FSUIPC": false,
+    "ProSim": false
+  },
+  "_version": "0.10"
+}

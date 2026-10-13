@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ModuleType>MobiFlight Mega</ModuleType>
+  <ModuleName>A320 AGP</ModuleName>
+  <Output Name="GEAR1_DOWN" Pin="2" />
+  <Output Name="GEAR1_UNLK" Pin="3" />
+  <Output Name="GEAR2_DOWN" Pin="4" />
+  <Output Name="GEAR2_UNLK" Pin="5" />
+  <Output Name="GEAR3_DOWN" Pin="6" />
+  <Output Name="GEAR3_UNLK" Pin="7" />
+  <Output Name="ABRK_LO_ON" Pin="8" />
+  <Output Name="ABRK_LO_DECEL" Pin="9" />
+  <Output Name="ABRK_MED_ON" Pin="10" />
+  <Output Name="ABRK_MED_DECEL" Pin="11" />
+  <Output Name="ABRK_MAX_ON" Pin="12" />
+  <Output Name="ABRK_MAX_DECEL" Pin="13" />
+  <Output Name="BRKFAN_ON" Pin="14" />
+  <Output Name="BRKFAN_HOT" Pin="15" />
+  <Output Name="TERR_ON" Pin="16" />
+  <Output Name="GEAR_ARROW" Pin="17" />
+  <Button Name="ASKID_SW" Pin="18" />
+  <Button Name="GEAR_LEVER_SW" Pin="19" />
+  <Button Name="ABRK_LO_BTN" Pin="21" />
+  <Button Name="ABRK_MED_BTN" Pin="22" />
+  <Button Name="ABRK_MAX_BTN" Pin="23" />
+  <Button Name="BRKFAN_BTN" Pin="24" />
+  <Button Name="TERR_BTN" Pin="25" />
+</Config>
